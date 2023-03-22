@@ -1,12 +1,27 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
+<!-- <!DOCTYPE html>
+    <html>
+        <head>
+            <title>Page Title</title>
+        </head>
+        <body>
+            <h1>test</h1>
+                <p>Just started</p>
+        </body>
+    </html>
+ -->
 
-<h1>test</h1>
-<p>Just started</p>
+ import HTML2JSX from "convert-html-to-jsx"
 
-</body>
-</html>
+const innerHTML = `
+    <p style="font-weight: bold;">Hello World!</p>
+    <img src="https://static.runkitcdn.com/assets/images/npm-logo.svg" />
+    <button disabled>Click</button>
+`
+
+export default () => {
+    return (
+        <div>
+            <HTML2JSX innerHTML={innerHTML} />
+        </div>
+    )
+}
