@@ -1,0 +1,44 @@
+<<<<<<< HEAD
+<!-- <!DOCTYPE html>
+    <html>
+        <head>
+=======
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test! Diyar </title>
+   
+>>>>>>> c96c846c6419e33857b89bb2bcd1928002dbf088
+            <title>Page Title</title>
+        </head>
+        <body>
+            <h1>test</h1>
+                <p>Just started</p>
+<<<<<<< HEAD
+        </body>
+    </html>
+ -->
+
+ import HTML2JSX from "convert-html-to-jsx"
+
+const innerHTML = `
+    <p style="font-weight: bold;">Hello, world!</p>
+    <img src="https://static.runkitcdn.com/assets/images/npm-logo.svg" />
+    <button disabled>Click</button>
+`
+
+export default () => {
+    return (
+        <div>
+            <HTML2JSX innerHTML={innerHTML} />
+        </div>
+    )
+}
+=======
+         <script src="utils.js"></script>
+         <script src="home.js"></script>
+        </body>
+    </html>
+
+>>>>>>> c96c846c6419e33857b89bb2bcd1928002dbf088
