@@ -1,1 +1,2 @@
-alert("Test JS!");
+let message ="test welcome";
+showMessage(message);
